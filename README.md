@@ -158,9 +158,37 @@ hotel-management
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository to the local system either by ZIP File or Using the following git command:
+```
+git clone https://github.com/aniru-dh21/hotel-management.git
+```
 
-```bash
+2. Change the present working directory to the repository `cd hotel-management` and install dependencies using the npm or yarn or pnpm:
+```
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Set environment variables to run the application in root directory by creating `.env` file:
+```
+STRIPE_WEBHOOK_SECRET=<Your_Secret_key>
+NEXT_PUBLIC_SANITY_PROJECT=<Your_Secret_key>
+NEXT_PUBLIC_SANITY_DATASET=<Your_Secret_key>
+GITHUB_CLIENT_ID=<Your_Secret_key>
+GITHUB_CLIENT_SECRET=<Your_Secret_key>
+GOOGLE_CLIENT_ID=<Your_Secret_key>
+GOOGLE_CLIENT_SECRET=<Your_Secret_key>
+NEXTAUTH_SECRET=<Your_Secret_key>
+SANITY_STUDIO_TOKEN=<Your_Secret_key>
+STRIPE_SECRET_KEY=<Your_Secret_key>
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=<Your_Secret_key>
+```
+
+4. After setting up `.env` file run the following commad to run the development server:
+```
 npm run dev
 # or
 yarn dev
@@ -168,23 +196,4 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

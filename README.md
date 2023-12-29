@@ -14,6 +14,20 @@ Creating a seamless and intuitibe hotel management site is essential for enhanci
 
 - **Stripe**: An online payment processing platform that's highly flexible and integrates easily with various web applications for secure and efficient financial transactions.
 
+## Highlights of the Project
+
+- **CRUD Operations with Sanity.IO**: Manage hotel rooms effectively with full create, read, update, and delete capabilities.
+
+- **Room Booking & Review**: Implement features for booking hotel rooms and providing room reviews.
+
+- **Payment Processing**: Integrate Stripe for secure and efficient checkout experiences.
+
+- **React Context for UI Themes**: Master the use of React Context for dynamic theme switching.
+
+- **Advanced Search and Authentication**: Implement a robust search feature and secure user authentication.
+
+- **TypeScript and useSwr Hook**: Enhancing project with TypeScript for better code management and use the useSwr hook for data fetching.
+
 ## Getting Started
 
 First, run the development server:

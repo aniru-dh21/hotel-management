@@ -1,6 +1,6 @@
 # Hotel Management Site with Next.js, Sanity.io, and Tailwind CSS
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Creating a seamless and intuitibe hotel management site is essential for enhancing the guest experience and streamlining and administrative tasks. Our project aims to achieve this by leveraging cutting-edge technologies to deliver a responsive and visually appealing platform. Through thoughtful design and user-friendly interfaces, we intend to provide both guests and hotel staff with an efficient and enjoyable interaction. The emphasis is on creating a dynamic website that not only showcases the hotel's offerings but also facilitates easy booking, management, and communication.
 
 ## Getting Started
 

@@ -28,6 +28,134 @@ Creating a seamless and intuitibe hotel management site is essential for enhanci
 
 - **TypeScript and useSwr Hook**: Enhancing project with TypeScript for better code management and use the useSwr hook for data fetching.
 
+## File Directory Structure
+
+```
+hotel-management
+├── README.md
+├── next-auth.types.ts
+├── next.config.js
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── public
+│   ├── images
+│   │   ├── hero-1.jpeg
+│   │   ├── hero-2.jpeg
+│   │   └── hero-3.jpeg
+│   ├── next.svg
+│   └── vercel.svg
+├── sanity.config.ts
+├── schemas
+│   ├── account.ts
+│   ├── booking.ts
+│   ├── hotelRoom.ts
+│   ├── index.ts
+│   ├── review.ts
+│   ├── user.ts
+│   └── verificationToken.ts
+├── src
+│   ├── app
+│   │   ├── (cms)
+│   │   │   ├── layout.tsx
+│   │   │   └── studio
+│   │   │       └── [[...index]]
+│   │   │           └── page.tsx
+│   │   ├── (web)
+│   │   │   ├── auth
+│   │   │   │   └── page.tsx
+│   │   │   ├── error.tsx
+│   │   │   ├── favicon.ico
+│   │   │   ├── globals.css
+│   │   │   ├── layout.tsx
+│   │   │   ├── loading.tsx
+│   │   │   ├── page.tsx
+│   │   │   ├── rooms
+│   │   │   │   ├── [slug]
+│   │   │   │   │   └── page.tsx
+│   │   │   │   └── page.tsx
+│   │   │   └── users
+│   │   │       └── [id]
+│   │   │           └── page.tsx
+│   │   └── api
+│   │       ├── auth
+│   │       │   └── [...nextauth]
+│   │       │       └── route.ts
+│   │       ├── room-reviews
+│   │       │   └── [id]
+│   │       │       └── route.ts
+│   │       ├── sanity
+│   │       │   └── signUp
+│   │       │       └── route.ts
+│   │       ├── stripe
+│   │       │   └── route.ts
+│   │       ├── users
+│   │       │   └── route.ts
+│   │       └── webhook
+│   │           └── route.ts
+│   ├── components
+│   │   ├── AuthProvider
+│   │   │   └── AuthProvider.tsx
+│   │   ├── BackDrop
+│   │   │   └── BackDrop.tsx
+│   │   ├── BookRoomCta
+│   │   │   └── BookRoomCta.tsx
+│   │   ├── Chart
+│   │   │   └── Chart.tsx
+│   │   ├── CountUpNumber
+│   │   │   └── CountUpNumber.tsx
+│   │   ├── FeaturedRoom
+│   │   │   └── FeaturedRoom.tsx
+│   │   ├── Footer
+│   │   │   └── Footer.tsx
+│   │   ├── Gallery
+│   │   │   └── Gallery.tsx
+│   │   ├── Header
+│   │   │   └── Header.tsx
+│   │   ├── HeroSection
+│   │   │   ├── ClientComponent.tsx
+│   │   │   ├── HeroSection.tsx
+│   │   │   └── ServerComponent.tsx
+│   │   ├── HotelPhotoGallery
+│   │   │   └── HotelPhotoGallery.tsx
+│   │   ├── NewsLetter
+│   │   │   └── NewsLetter.tsx
+│   │   ├── PageSearch
+│   │   │   └── PageSearch.tsx
+│   │   ├── Rating
+│   │   │   └── Rating.tsx
+│   │   ├── RatingModal
+│   │   │   └── RatingModal.tsx
+│   │   ├── RoomCard
+│   │   │   └── RoomCard.tsx
+│   │   ├── RoomReview
+│   │   │   └── RoomReview.tsx
+│   │   ├── Search
+│   │   │   └── Search.tsx
+│   │   ├── Table
+│   │   │   └── Table.tsx
+│   │   ├── ThemeProvider
+│   │   │   └── ThemeProvider.tsx
+│   │   └── Toast
+│   │       └── Toast.tsx
+│   ├── context
+│   │   └── themeContext.ts
+│   ├── libs
+│   │   ├── apis.ts
+│   │   ├── auth.ts
+│   │   ├── sanity.ts
+│   │   ├── sanityQueries.ts
+│   │   └── stripe.ts
+│   ├── middleware.ts
+│   └── models
+│       ├── booking.ts
+│       ├── review.ts
+│       ├── room.ts
+│       └── user.ts
+├── tailwind.config.ts
+└── tsconfig.json
+```
+
 ## Getting Started
 
 First, run the development server:
